@@ -2,6 +2,7 @@
 
 def reverse_each_word(string)
 
-array = string.split(/ /)
- array.each { |words| words.reverse}
+string.split.map do |joined_array|
+ joined_array.reverse
+end.join(' ')
 end
